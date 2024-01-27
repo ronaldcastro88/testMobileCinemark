@@ -22,14 +22,12 @@ Versiones de las librerías con las que es estable la automatización:
 #### Ejemplo comando de ejecución:
 
 Para ejecutar un runner específico:
-```   gradlew clean test -Prunner="AutenticacionRunner" aggregate --info ```
+```   gradlew clean test -Prunner="AutenticacionRunner" aggregate --info ``` en Ubuntu como es mi caso ```./gradlew clean test...```
 
 Para ejecutar toda la batería de pruebas:
 ```   gradlew clean test  aggregate  ```
 
 ## Ejecución de pruebas
-
-#### Ejemplo comando de ejecución:
 
 Para ejecutar un runner específico:
 ```   gradlew clean test -Prunner="AutenticacionRunner" aggregate --info ```
